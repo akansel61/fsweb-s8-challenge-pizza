@@ -12,6 +12,18 @@ function App() {
 
   return (
     <>
+     <Router>
+      <Routes>
+      
+        <Route path="/" element={<Home />} />
+
+        
+        <Route path="/order" element={<Order />} />
+
+        
+        <Route path="/success" element={<Success />} />
+      </Routes>
+    </Router>
       <div>
         <a href="https://github.com/Workintech/fsweb-s7-challenge-pizza" target="_blank">
           <img src={workintech} className="logo" alt="Workintech logo" />
