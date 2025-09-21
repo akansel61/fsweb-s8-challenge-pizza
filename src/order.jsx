@@ -4,13 +4,20 @@ import React, {useState} from "react";
 
 export default function Order() {
   const [pizza, setPizza] = useState({
-    const [pizza, setPizza] = useState({
-    name: 'Position Absolute Acı Pizza',
-    price: 85.50,
-    rating: 4.9,
-    reviews: 200,
+    
+    ad: 'Position Absolute Acı Pizza',
+    fiyat: 85.50,
+    puan: 4.9,
+    yorumSayisi: 200,
   });
-  });
+
+
+
+
+
+
+
+  
 
 
   return (
